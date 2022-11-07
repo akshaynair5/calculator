@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <link href="calcu.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="container">
+        <div class="row1">
+          <input
+            class="inputbox"
+            type="text"
+            id="result"
+            placeholder="Enter Values"
+            style="margin-left: 3px;;margin-top: 10px"
+
+          />
+        </div>
+        <div class="row2" style="margin-left: 15px">
+          <input type="button" class="inputs" value="1"  onclick="display('1')"/>
+          <input type="button" class="inputs" value="2"  onclick="display('2')"/>
+          <input type="button" class="inputs" value="3"  onclick="display('3')"/>
+          <input type="button" class="inputs" value="+"  onclick="display('+')"/>
+        </div>
+        <br />
+        <div class="row3" style="margin-left: 15px">
+            <input type="button" class="inputs" value="4"  onclick="display('4')"/>
+            <input type="button" class="inputs" value="5"  onclick="display('5')"/>
+            <input type="button" class="inputs" value="6"  onclick="display('6')"/>
+            <input type="button" class="inputs" value="-"  onclick="display('-')"/>
+        </div>
+        <br />
+        <div class="row4" style="margin-left: 15px">
+            <input type="button" class="inputs" value="7" onclick="display('7')"/>
+            <input type="button" class="inputs" value="8"  onclick="display('8')"/>
+            <input type="button" class="inputs" value="9"  onclick="display('9')"/>
+            <input type="button" class="inputs" value="*"  onclick="display('*')"/>
+        </div>
+        <br />
+        <div class="row5" style="margin-left: 15px; margin-right: 5px">
+            <input type="button" class="inputs" value="."  onclick="display('.')"/>
+            <input type="button" class="inputs" value="0"  onclick="display('0')"/>
+            <input type="button" class="inputs" value="/"  onclick="display('/')"/>
+            <input type="button" class="inputs" value="="  onclick="calculate('=')" style="margin-right: 5px"/>
+            <input class="inputs" type="button" value="AC" onclick="clearScreen()"></input>
+        </div>
+        <br />
+      </div>
+    </div>
+    <script src="calcu.javasc.js"></script>
+  </body>
+</html>
