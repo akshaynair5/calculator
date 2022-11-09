@@ -37,9 +37,10 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 19px;
+    font-size: 16px;
     border-radius:22px;
     shadow:#555555;
+    transition:0.5s;
 }
 .container{
 align-content: center;
